@@ -1,0 +1,27 @@
+body {
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sketchpad-col { 
+    border: 0.25px grey solid;
+}
+
+.sketchpad-col-marked {
+    background-color: black;
+    opacity: 0.4;
+}
+
+#sketchpad {
+    border: 1px black solid;
+    margin-top: 20px;
+}
